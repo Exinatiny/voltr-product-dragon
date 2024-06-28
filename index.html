@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articulated Dragon - 3D Print Wonders</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&display=swap');
+
+        :root {
+            --apple-gray: #86868b;
+            --apple-light-gray: #f5f5f7;
+            --apple-blue: #0071e3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.47059;
+            font-weight: 400;
+            letter-spacing: -.022em;
+            background-color: #fff;
+            color: #1d1d1f;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 22px;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 44px;
+            padding: 0 22px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav a {
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--apple-blue);
+        }
+
+        .logo {
+            font-size: 21px;
+            font-weight: 500;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 120px 0 60px;
+            background-color: var(--apple-light-gray);
+            background-image: url('https://example.com/images/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white; /* Adjust text color for better readability */
+        }
+
+        h1 {
+            font-size: 56px;
+            line-height: 1.07143;
+            font-weight: 600;
+            letter-spacing: -.005em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 48px;
+            line-height: 1.08349;
+            font-weight: 600;
+            letter-spacing: -.003em;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 28px;
+            line-height: 1.14286;
+            font-weight: 500;
+            letter-spacing: .007em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 21px;
+            line-height: 1.381;
+            font-weight: 400;
+            letter-spacing: .011em;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .product-details {
+            text-align: left;
+        }
+
+        .product-price {
+            font-size: 24px;
+            color: var(--apple-blue);
+            margin-bottom: 15px;
+        }
+
+        .cta {
+            display: inline-block;
+            background-color: var(--apple-blue);
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 980px;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #0077ed;
+        }
+
+        footer {
+            background-color: var(--apple-light-gray);
+            color: var(--apple-gray);
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">3D Print Wonders</div>
+            <ul>
+                <li><a href="/#featured">Home</a></li>
+                <li><a href="/#categories">Categories</a></li>
+                <li><a href="/#custom">Custom Orders</a></li>
+                <li><a href="/#upload">Upload STL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Articulated Dragon</h1>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <img src="https://example.com/images/articulated-dragon.jpg" alt="Articulated Dragon" class="product-image">
+                <div class="product-details">
+                    <h2>About the Articulated Dragon</h2>
+                    <p>This 3D printed articulated dragon is a marvel of engineering and design. Each joint is designed to move fluidly, allowing for a wide range of poses and dynamic displays. Made with high-quality PLA, this dragon is both durable and visually stunning.</p>
+                    <p class="product-price">$2.99</p>
+                    <a href="#" class="cta">Place an order</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 3D Print Wonders. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
